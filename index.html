@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>jQuery</title>
+    <script src = "js/jquery-3.3.1.js"></script>
+    <script>
+        size = 16;
+        
+        $(function(){
+           $("#btn").click(function(){
+               $("#content").html("<h3>Welcome To jQuery World...</h3>");
+           }); 
+            $("p").hover(function(){
+                $(this).css("background-color","yellow");
+            });
+            
+            $("p").mouseleave(function(){
+                $(this).css("background-color","white");
+            });
+            
+            $("#plus").click(function(){
+                $("body").css("font-size",size++);
+            });
+            
+             $("#minus").click(function(){
+                $("body").css("font-size",size--);
+             })
+            
+            
+        });
+       </script>
+   </head>
+   
+   <body>
+      <button id = "plus">+</button>
+      <button id = "minus">-</button>
+      <hr/>
+       <button id="btn">click!</button>
+       <div id="content"></div>
+       
+       <p>
+           Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and make two real miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it without me. 
+
+       </p>
+        <p>
+           Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and make two real miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it without me. 
+
+       </p>
+        <p>
+           Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and make two real miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it without me. 
+
+       </p>
+        <p>
+           Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and make two real miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it without me. 
+
+       </p>
+       
+       
+   </body>
+
+</html>
